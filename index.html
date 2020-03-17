@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="imagenes/`${a}`.png">
+    <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Amigas del código</title>
+</head>
+<body>
+    <!-- cabecera -->
+    <header class="header">
+        <figure class="header_image-container">
+            <img class="header_image" src="imagenes/logoamigas.png" alt="Logo amigas del codigo" height="100">
+        </figure>
+        <nav class="header_menu">
+            <ul>
+                <li> 
+                    <a class="header_menu-link" href="#articulo">Artículos</a>
+                </li>
+                <li>
+                    <a class="header_menu-link" href="#event">Eventos</a>
+                </li>
+                <li>
+                    <a class="header_menu-link" href="#news">Newsletter</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- fin de cabecera -->
+    <!-- principal -->
+    <main class="hero">
+        <div class="hero_title-container">
+            <h1 class="hero_title">
+                Amigas del<strong> codigo </strong><br> por más <strong>mujeres</strong> <br> en <strong>tecnología</strong>.
+            </h1>
+        </div>
+        <!-- <figure class="hero_image-container">
+            <img class="hero_image" src="https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Woman in tech image" width="500">
+        </figure> -->
+    </main>
+    <!-- fin de principal -->
+    <!-- seccion de Articulos -->
+    <section id="articulo" class="article">
+        <h2 class="article_title">
+            <a href="./articulos/index.html">Artículos</a> 
+        </h2>
+        <article class="project">
+            <div class="prooject_container">
+                <h3 class="project_title">Python como lenguaje para empezar.</h3>
+                <h6 class="project_autor">Dulce Mercado</h6>
+                <p class="project_date"><small><strong>Fecha:</strong>04/01/2020</small></p>
+                <p class="project_description">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            </div>
+            <figure class="project_image-container">
+                <img class="project_image" src="imagenes/h.png" alt="Python" width="500">
+            </figure>
+        </article>
+    </section>
+    <!-- fin de seccion de Articulos -->
+    <!-- seccion de Eventos -->
+    <section id="event" class="event">
+        <h2 class="event_title">
+            Eventos
+        </h2>
+        <article class="conf">
+            <figure class="conf_image-container">
+                <img class="conf_image" src="imagenes/cssconf.png" alt="CSS conf" width="500">
+            </figure>
+            <h3 class="conf_title">CSS conf Colombia</h3>
+            <h6 class="conf_about">Evento sobre css en Medellin</h6>
+            <p class="conf_date"><small><strong>Fecha:</strong>21/03/2020</small></p>
+            <p class="conf_url"><small><strong><a href="https://cssconf.co/" target="_blank">https://cssconf.co/</a></strong></small></p>
+        </article>
+    </section>
+    <!-- fin de seccion de Eventos -->
+    <!-- seccion de Newsletter -->
+    <section id="news" class="newsletter">
+        <form action="" class="newsletter_form">
+            <label for="newsletter" class="newsletter_form-label">
+                <h3 class="newsletter_form-title">Newsletter</h3>
+                <input class="newsletter_form-input" type="text" placeholder="Dejanos tu correo" id="newsletter">
+            </label>
+            <button class="newsletter_form-button">Enviar</button>
+        </form>
+    </section>
+    <!-- fin de seccion de Newsletter -->
+    <!-- footer -->
+    <footer class="footer">
+        <ul>
+            <li class="footer_link">RRSS</li>
+            <li class="footer_link">Correo</li>
+            <li class="footer_link">Hecho con amor</li>
+        </ul>
+    </footer>
+    <!-- fin de footer -->
+</body>
+</html>

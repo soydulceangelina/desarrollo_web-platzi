@@ -1,0 +1,102 @@
+:root{
+    --yellow-color: #f6ee55;
+    --greydark-color: #1b2127;
+    --bluehighlight-color: #026fff;
+}
+
+
+body{
+    padding: 0;
+    margin: 0 150px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fjalla One', sans-serif;
+    color: var(--greydark-color);
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 1.5em;
+    letter-spacing: -.2px;;
+}
+
+h1 strong{
+    color: var(--bluehighlight-color);
+}
+
+a{
+    color: var(--greydark-color);
+    text-decoration: none;
+}
+
+h2 a:hover{
+    font-size: 26px;
+    color: var(--bluehighlight-color);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: var(--yellow-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_image-container{
+    margin: 0;
+}
+
+.header_menu ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.header_menu a{
+    color: var(--greydark-color);
+    text-decoration: none;
+    margin: 0px 20px 0px 10px;
+}
+
+.header_menu a:hover{
+    font-size: 18px;
+    color: var(--bluehighlight-color);
+}
+
+.hero{
+    margin: 0;
+    height: 300px;
+    color: var(--greydark-color);
+    background-color: var(--yellow-color);
+    background-image: url('https://images.pexels.com/photos/2422293/pexels-photo-2422293.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="Woman in tech image" width="500');
+    background-size: 500px 320px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.hero_title{
+    margin: 0;
+}
+
+.project{
+    display: flex;
+    align-items: center;
+    background-color: #e4e4e4;
+    border: 2px solid var(--greydark-color);
+    border-radius: 50px;
+    margin: 10px;
+    padding: 10px 15px;
+}
+.prooject_container{
+    width: 500px;
+}
+
+.project_image-container{
+    width: 500px;
+}
+
